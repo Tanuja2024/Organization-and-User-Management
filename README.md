@@ -145,6 +145,9 @@ djangorestframework==3.14.0
 djangorestframework-simplejwt==5.3.0
 django-cors-headers==4.3.0
 
+npm install -D tailwindcss @tailwindcss/cli
+npm install axios react-icons
+
 
 **Configure Database** (Edit `settings.py`):
 
