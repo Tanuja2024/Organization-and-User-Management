@@ -89,6 +89,16 @@ This system provides a comprehensive solution for managing multiple organization
 |                 | View     | ✔️          | ❌                          |
 
                 
+## Model Relationships
+
+| Model A       | Relationship       | Model B        | Cardinality | Description                                                       |
+|---------------|--------------------|----------------|-------------|-------------------------------------------------------------------|
+| Organization  | Has many           | User           | 1 to 0..N   | One org can have multiple admin users. Users may have no org (super admins). |
+| User          | Belongs to (opt)   | Organization   | 0..1 to 1   | Users may belong to one organization or none (super admin case).  |
+| Organization  | Has many           | OrgUser        | 1 to 0..N   | One org can have multiple members (coordinators/admins).          |
+| OrgUser       | Belongs to         | Organization   | 0..1 to 1   | Members belong to exactly one organization.                       |
+| User          | Creates            | PendingRequest | 1 to 0..N   | Users can make many pending requests.                             |
+| Organization  | Has many (optional)| PendingRequest | 1 to 0..N   | Pending requests may be linked to an organization or be null (new org requests). |
 
 ---
 
