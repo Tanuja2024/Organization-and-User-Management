@@ -69,18 +69,24 @@ This system provides a comprehensive solution for managing multiple organization
 
 ### **Permission Matrix**
 
-| Resource               |Super Admin | Org Admin | Coordinator |
-|----------|-------------|------------|-----------|--------------|
-| View All Organizations  ✅              ❌           ❌ 
-| Create Organization     ✅              ❌           ❌ 
-| Edit Own Organization   ✅              ✅           ❌ 
-| Delete Organization     ✅              ❌           ❌ 
-| Approve Requests        ✅              ❌           ❌ 
-| Add Org Members         ✅              ✅           ❌ 
-| Edit Org Members        ✅              ✅           ❌ 
-| Delete Org Members      ✅              ✅           ❌ 
-| View Own Org Details    ✅              ✅           ✅ 
-| Update Profile          ✅              ✅           ✅ 
+Model           |  Action  |  Super Admin  |  Org Admin (own org)  |  Coordinator (OrgUser)
+----------------+----------+---------------+-----------------------+-----------------------
+Organization    |  add     |  ✅            |  ❌                    |  ❌                    
+                |  change  |  ✅            |  ✅                    |  ❌                    
+                |  delete  |  ✅            |  ❌                    |  ❌                    
+                |  view    |  ✅            |  ✅                    |  ❌                    
+User            |  add     |  ✅            |  ❌                    |  ❌                    
+                |  change  |  ✅            |  ❌                    |  ✅ (own profile only) 
+                |  delete  |  ✅            |  ❌                    |  ❌                    
+                |  view    |  ✅            |  ❌                    |  ✅ (own profile only) 
+OrgUser         |  add     |  ✅            |  ✅                    |  ❌                    
+                |  change  |  ✅            |  ✅                    |  ❌                    
+                |  delete  |  ✅            |  ✅                    |  ❌                    
+                |  view    |  ✅            |  ✅                    |  ❌                    
+PendingRequest  |  add     |  ✅            |  ❌                    |  ❌                    
+                |  change  |  ✅            |  ❌                    |  ❌                    
+                |  delete  |  ✅            |  ❌                    |  ❌                    
+                |  view    |  ✅            |  ❌                    |  ❌                    
 
 ---
 
