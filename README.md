@@ -22,6 +22,7 @@ This system provides a comprehensive solution for managing multiple organization
 - ✅ Approve/reject new organization requests
 - ✅ Approve/reject admin join requests
 - ✅ Manage super admin profile
+- ✅ Django admin interface is used for all authorized users management
 
 ### Organization Admin Features
 - ✅ Manage their own organization details
