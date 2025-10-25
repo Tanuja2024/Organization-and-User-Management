@@ -69,24 +69,25 @@ This system provides a comprehensive solution for managing multiple organization
 
 ### **Permission Matrix**
 
-Model           |  Action  |  Super Admin  |  Org Admin (own org)  |  Coordinator (OrgUser)
-----------------+----------+---------------+-----------------------+-----------------------
-Organization    |  add     |  ✅            |  ❌                    |  ❌                    
-                |  change  |  ✅            |  ✅                    |  ❌                    
-                |  delete  |  ✅            |  ❌                    |  ❌                    
-                |  view    |  ✅            |  ✅                    |  ❌                    
-User            |  add     |  ✅            |  ❌                    |  ❌                    
-                |  change  |  ✅            |  ❌                    |  ✅ (own profile only) 
-                |  delete  |  ✅            |  ❌                    |  ❌                    
-                |  view    |  ✅            |  ❌                    |  ✅ (own profile only) 
-OrgUser         |  add     |  ✅            |  ✅                    |  ❌                    
-                |  change  |  ✅            |  ✅                    |  ❌                    
-                |  delete  |  ✅            |  ✅                    |  ❌                    
-                |  view    |  ✅            |  ✅                    |  ❌                    
-PendingRequest  |  add     |  ✅            |  ❌                    |  ❌                    
-                |  change  |  ✅            |  ❌                    |  ❌                    
-                |  delete  |  ✅            |  ❌                    |  ❌                    
-                |  view    |  ✅            |  ❌                    |  ❌                    
+| Model            | Action   | Super Admin | Org Admin (own org) | Coordinator (OrgUser)      |
+|------------------|----------|-------------|---------------------|----------------------------|
+| Organization     | Add      | ✔️          | ❌                  | ❌                         |
+|                  | Change   | ✔️          | ✔️                  | ❌                         |
+|                  | Delete   | ✔️          | ❌                  | ❌                         |
+|                  | View     | ✔️          | ✔️                  | ❌                         |
+| User             | Add      | ✔️          | ❌                  | ❌                         |
+|                  | Change   | ✔️          | ❌                  | ✔️ (own profile only)       |
+|                  | Delete   | ✔️          | ❌                  | ❌                         |
+|                  | View     | ✔️          | ❌                  | ✔️ (own profile only)       |
+| OrgUser          | Add      | ✔️          | ✔️                  | ❌                         |
+|                  | Change   | ✔️          | ✔️                  | ❌                         |
+|                  | Delete   | ✔️          | ✔️                  | ❌                         |
+|                  | View     | ✔️          | ✔️                  | ❌                         |
+| PendingRequest   | Add      | ✔️          | ❌                  | ❌                         |
+|                  | Change   | ✔️          | ❌                  | ❌                         |
+|                  | Delete   | ✔️          | ❌                  | ❌                         |
+|                  | View     | ✔️          | ❌                  | ❌                         |
+                
 
 ---
 
