@@ -113,7 +113,7 @@ This system provides a comprehensive solution for managing multiple organization
 ### **1. Clone the Repository**
 
 git clone https://github.com/yourusername/org-user-management.git
-cd MANAGE_ORGANIZATIONS
+cd manage_organizations
 
 
 ### **2. Backend Setup**
