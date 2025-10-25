@@ -69,24 +69,25 @@ This system provides a comprehensive solution for managing multiple organization
 
 ### **Permission Matrix**
 
-| Model            | Action   | Super Admin | Org Admin (own org) | Coordinator (OrgUser)      |
-|------------------|----------|-------------|---------------------|----------------------------|
-| Organization     | Add      | ✔️          | ❌                  | ❌                         |
-|                  | Change   | ✔️          | ✔️                  | ❌                         |
-|                  | Delete   | ✔️          | ❌                  | ❌                         |
-|                  | View     | ✔️          | ✔️                  | ❌                         |
-| User             | Add      | ✔️          | ❌                  | ❌                         |
-|                  | Change   | ✔️          | ❌                  | ✔️ (own profile only)       |
-|                  | Delete   | ✔️          | ❌                  | ❌                         |
-|                  | View     | ✔️          | ❌                  | ✔️ (own profile only)       |
-| OrgUser          | Add      | ✔️          | ✔️                  | ❌                         |
-|                  | Change   | ✔️          | ✔️                  | ❌                         |
-|                  | Delete   | ✔️          | ✔️                  | ❌                         |
-|                  | View     | ✔️          | ✔️                  | ❌                         |
-| PendingRequest   | Add      | ✔️          | ❌                  | ❌                         |
-|                  | Change   | ✔️          | ❌                  | ❌                         |
-|                  | Delete   | ✔️          | ❌                  | ❌                         |
-|                  | View     | ✔️          | ❌                  | ❌                         |
+| Model           | Action   | Super Admin | Org Admin (own org)         |
+|-----------------|----------|-------------|-----------------------------|
+| Organization    | Add      | ✔️          | ❌                          |
+|                 | Change   | ✔️          | ✔️                          |
+|                 | Delete   | ✔️          | ❌                          |
+|                 | View     | ✔️          | ✔️                          |
+| User            | Add      | ✔️          | ❌                          |
+|                 | Change   | ✔️          | ❌                          |
+|                 | Delete   | ✔️          | ❌                          |
+|                 | View     | ✔️          | ❌                          |
+| OrgUser         | Add      | ✔️          | ✔️                          |
+|                 | Change   | ✔️          | ✔️                          |
+|                 | Delete   | ✔️          | ✔️                          |
+|                 | View     | ✔️          | ✔️                          |
+| PendingRequest  | Add      | ✔️          | ❌                          |
+|                 | Change   | ✔️          | ❌                          |
+|                 | Delete   | ✔️          | ❌                          |
+|                 | View     | ✔️          | ❌                          |
+
                 
 
 ---
